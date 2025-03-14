@@ -1,0 +1,57 @@
+{
+  "documents": [
+    {
+      "id": "id__1693",
+      "sentiment": "mixed",
+      "confidenceScores": {
+        "positive": 0.45,
+        "neutral": 0.18,
+        "negative": 0.37
+      },
+      "sentences": [
+        {
+          "sentiment": "negative",
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.28,
+            "negative": 0.72
+          },
+          "offset": 0,
+          "length": 64,
+          "text": "I had a rough day at work, and I'm feeling really stressed out. ",
+          "targets": [],
+          "assessments": []
+        },
+        {
+          "sentiment": "neutral",
+          "confidenceScores": {
+            "positive": 0.25,
+            "neutral": 0.56,
+            "negative": 0.19
+          },
+          "offset": 64,
+          "length": 88,
+          "text": "On the bright side, I managed to resolve a big issue that was bothering me for a while. ",
+          "targets": [],
+          "assessments": []
+        },
+        {
+          "sentiment": "positive",
+          "confidenceScores": {
+            "positive": 0.9,
+            "neutral": 0.09,
+            "negative": 0.02
+          },
+          "offset": 152,
+          "length": 40,
+          "text": "It's a small win, but it helps a little.",
+          "targets": [],
+          "assessments": []
+        }
+      ],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "modelVersion": "2025-01-01"
+}

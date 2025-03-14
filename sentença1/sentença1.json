@@ -1,0 +1,86 @@
+{
+  "documents": [
+    {
+      "id": "id__1384",
+      "sentiment": "mixed",
+      "confidenceScores": {
+        "positive": 0.65,
+        "neutral": 0.02,
+        "negative": 0.33
+      },
+      "sentences": [
+        {
+          "sentiment": "positive",
+          "confidenceScores": {
+            "positive": 1,
+            "neutral": 0,
+            "negative": 0
+          },
+          "offset": 0,
+          "length": 91,
+          "text": "I finally finished the project I've been working on for weeks, and I'm really proud of it. ",
+          "targets": [
+            {
+              "sentiment": "positive",
+              "confidenceScores": {
+                "positive": 1,
+                "negative": 0
+              },
+              "offset": 23,
+              "length": 7,
+              "text": "project",
+              "relations": [
+                {
+                  "relationType": "assessment",
+                  "ref": "#/documents/0/sentences/0/assessments/0"
+                }
+              ]
+            }
+          ],
+          "assessments": [
+            {
+              "sentiment": "positive",
+              "confidenceScores": {
+                "positive": 1,
+                "negative": 0
+              },
+              "offset": 78,
+              "length": 5,
+              "text": "proud",
+              "isNegated": false
+            }
+          ]
+        },
+        {
+          "sentiment": "negative",
+          "confidenceScores": {
+            "positive": 0,
+            "neutral": 0.01,
+            "negative": 0.99
+          },
+          "offset": 91,
+          "length": 84,
+          "text": "However, I can't help but feel a bit exhausted and worried about the next deadline. ",
+          "targets": [],
+          "assessments": []
+        },
+        {
+          "sentiment": "positive",
+          "confidenceScores": {
+            "positive": 0.96,
+            "neutral": 0.03,
+            "negative": 0
+          },
+          "offset": 175,
+          "length": 43,
+          "text": "Still, it's a relief to have this one done.",
+          "targets": [],
+          "assessments": []
+        }
+      ],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "modelVersion": "2025-01-01"
+}
