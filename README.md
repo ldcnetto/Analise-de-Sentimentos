@@ -1,6 +1,6 @@
 # Análise de Sentenças
 
-Este diretório contém a análise de sentimentos de três sentenças distintas. A estrutura segue a ordem:
+Este repositório contém a análise de sentimentos de três sentenças distintas. A estrutura segue a ordem:
 
 - **Análise** (contendo as imagens das sentenças analisadas)
 - **Resultado** (imagem do resultado final)
